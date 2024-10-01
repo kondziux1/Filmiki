@@ -11,7 +11,6 @@ function App() {
   }
 
   return (
-    <>
       <form onSubmit={onSubmit} method="post">
         <div className="form-group">
           <label htmlFor="filmTitle">Tytuł filmu</label>
@@ -38,7 +37,6 @@ function App() {
           </button>
         </div>
       </form>
-    </>
   );
 }
 
